@@ -48,10 +48,8 @@ function draw() {
   if(path.y > 400 ){
     path.y = height/2;
   }
-  fill("green");
-  textSize(20);
-  text("Hi!", 200, 200);
-    createCash();
+
+  createCash();
     createDiamonds();
     createJwellery();
     createSword();
@@ -75,7 +73,9 @@ function draw() {
   textSize(20);
   fill(255);
   text("Treasure: "+ treasureCollection,150,30);
-
+  fill("green");
+  textSize(30);
+  text("Hi!", 200, 200);
 }
 
 function createCash() {
