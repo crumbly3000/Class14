@@ -21,7 +21,9 @@ path=createSprite(200,200);
 path.addImage(pathImg);
 path.velocityY = 4;
 
-
+textSize(20);
+text("Hi!", 200, 200);
+  
 //creating boy running
 boy = createSprite(70,330,20,20);
 boy.addAnimation("SahilRunning",boyImg);
