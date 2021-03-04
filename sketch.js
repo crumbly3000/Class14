@@ -21,9 +21,7 @@ path=createSprite(200,200);
 path.addImage(pathImg);
 path.velocityY = 4;
 
-fill("green");
-textSize(20);
-text("Hi!", 200, 200);
+
   
 //creating boy running
 boy = createSprite(70,330,20,20);
@@ -50,7 +48,9 @@ function draw() {
   if(path.y > 400 ){
     path.y = height/2;
   }
-  
+  fill("green");
+  textSize(20);
+  text("Hi!", 200, 200);
     createCash();
     createDiamonds();
     createJwellery();
